@@ -119,9 +119,9 @@
     }
 }
 
-.headline__underline--white {
+.headline__underline--highlight {
     &:after {
-      background: $color-white;
+      background: $color-highlight;
     }
 }
 

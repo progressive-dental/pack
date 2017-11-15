@@ -18,7 +18,7 @@ global $progressive; ?>
         <div class="vc_col-sm-12">
           <div class="headline headline--center">
             <a href="<?php echo esc_url( home_url() ); ?>" class="site-foot__header site-foot__header--logo"><img src="<?php echo $progressive['footer-logo']['url']; ?>" alt="<?php echo get_bloginfo('name'); ?>"></a>
-            <h2 class="headline__main  headline__cta  text-light">
+            <h2 class="headline__main  headline__cta text-light">
               Contact Our Team
             </h2>
             <a class="btn btn--primary" href="/contact-us" title="Schedule Consultation">

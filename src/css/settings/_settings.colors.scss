@@ -18,7 +18,7 @@ $color-dark-gray: darken($color-gray, 15%);           /* [1] */
 $color-light-gray: lighten($color-gray, 20%);         /* [1] */
 $color-lighter-gray: lighten($color-gray, 28%);       /* [1] */
 
-$color-accent: #C8AE75;                               /* [2] */
+$color-accent: #0D4479;                               /* [2] */
 $color-dark-accent: darken($color-accent, 6%);        /* [2] */
 $color-darker-accent: darken($color-accent,20%);      /* [2] */
 $color-light-accent: lighten($color-accent, 7%);      /* [2] */
@@ -33,13 +33,13 @@ $color-dark-secondary: darken($color-secondary, 2%);  /* [2] */
 $color-darker-secondary: darken($color-secondary, 5%);/* [2] */
 $color-light-secondary: lighten($color-secondary, 4%);/* [2] */
 
-$color-tertiary: #C8AE75;                             /* [2] */
+$color-tertiary: #F6BA4D;                             /* [2] */
 $color-dark-tertiary: darken($color-tertiary, 30%);   /* [2] */
 $color-transparent-tertiary: transparentize($color-tertiary, .4);                             /* [2] */
 $color-tint: #EEEEEE;                                 /* [2] */
-$color-highlight: #DB7D3B;                            /* [2] */
+$color-highlight: #F6BA4D;                            /* [2] */
 $color-custom-one: $color-light-primary;              /* [2] */
-$color-custom-two: #2D3F55;                           /* [2] */
+$color-custom-two: #E16C29;                           /* [2] */
 $color-custom-three: #14204B;                         /* [2] */
 $color-test: #aaaaaa;
 
@@ -67,10 +67,10 @@ $color-strong-tag:                      $color-primary;
 
 // Buttons
 $color-btn:                             $color-white;
-$color-btn-background:                  $color-primary;
+$color-btn-background:                  $color-highlight;
 $color-btn-background-border:           $color-accent;
-$color-btn-background-hover:            $color-tertiary;
-$color-btn-background-hover--primary:   $color-dark-primary;
+$color-btn-background-hover:            $color-custom-two;
+$color-btn-background-hover--primary:   $color-custom-two;
 $color-btn-border-hover--primary:       $color-dark-accent;
 $color-btn--secondary:                  $color-white;
 $color-btn-background--secondary:       $color-secondary;
@@ -96,11 +96,11 @@ $color-play-button:                     $color-white;
 
 // Accordion
 $color-accordion-title-bg-color:        $color-darker-secondary;
-$color-accordion-title-text:            $color-custom-two;
+$color-accordion-title-text:            $color-primary;
 $color-accordion-title-active-bg-color: $color-primary;
 $color-accordion-title-active-text:     $color-white;
 $color-accordion-content-bg-color:      $color-light-secondary;
-$color-accordion-content-text:          $color-custom-two;
+$color-accordion-content-text:          $color-primary;
 
 // Block list
 $color-blist-border:                    $color-lighter-gray;
@@ -163,9 +163,9 @@ $color-section-pattern-bg:              $color-primary;
 
 // Site Footer
 $color-site-foot:                       $color-white;
-$color-site-foot-bg:                    $color-primary;
-$color-site-foot-link:                  $color-secondary;
-$color-site-foot-link-hover:            $color-darker-secondary;
+$color-site-foot-bg:                    $color-white;
+$color-site-foot-link:                  $color-white;
+$color-site-foot-link-hover:            $color-highlight;
 $color-site-foot-header:                $color-white;
 $color-site-foot-header-border:         lighten($color-site-foot-bg, 25%);
 $color-site-foot-reviews-bg:            $color-light-primary;
@@ -222,9 +222,9 @@ $color-trabsblock-list-item-border:     #979797;
 // Video Box
 $color-video-box-caption:               $color-white;
 $color-video-box-caption-bg:            $color-primary;
-$color-video-box-play-bg:               transparentize($color-accent, .3);
+$color-video-box-play-bg:               transparentize($color-tertiary, .3);
 $color-video-box-play:                  $color-white;
-$color-video-box-play-bg-hover:         $color-accent;
+$color-video-box-play-bg-hover:         $color-custom-two;
 $color-video-play:                      $color-white;
 $color-video-play-bg:                   rgba(15,26,68,.80);
 $color-video-play-bg-hover:             rgba(15,26,68,1);

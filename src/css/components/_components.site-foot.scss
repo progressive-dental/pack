@@ -1,5 +1,5 @@
 .site-foot {
-  background-color: $color-site-foot-bg;
+  background-color: $color-accent;
   position: relative;
   margin-top: 150px;
   padding: 0;
@@ -7,9 +7,9 @@
   font-size: 14px;
   line-height: 19.6px;
   font-weight: 700;
-  color: #fff;
+  color: $color-white;
 
-  background-image: url("/wp-content/uploads/2017/10/footer-background-1.jpg");
+  background-image: url("http://localhost/pack/wp-content/uploads/2017/11/nyskylineredone2.png");
 
   &:before {
     content: '';
