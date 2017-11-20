@@ -220,8 +220,8 @@ $color-transblock-header-bg:            transparentize($color-accent, .3);
 $color-trabsblock-list-item-border:     #979797;
 
 // Video Box
-$color-video-box-caption:               $color-white;
-$color-video-box-caption-bg:            $color-light-accent;
+$color-video-box-caption:               $color-accent;
+$color-video-box-caption-bg:            $color-secondary;
 $color-video-box-play-bg:               transparentize($color-tertiary, .3);
 $color-video-box-play:                  $color-white;
 $color-video-box-play-bg-hover:         $color-dark-tertiary;
