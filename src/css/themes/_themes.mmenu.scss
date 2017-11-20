@@ -53,7 +53,7 @@
       @include display(flex);
       @include justify-content(center);
       @include align-items(center);
-      background: $color-accent;
+      background: $color-tertiary;
       height: 80px;
       width: 80px;
       font-size: 30px;
@@ -61,7 +61,7 @@
       margin: 0 auto;
       &:focus,
       &:active {
-        background-color: darken($color-accent, 20%);
+        background-color: darken($color-tertiary, 20%);
       }
     }
 
