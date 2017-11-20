@@ -186,6 +186,7 @@
   margin-bottom: 13px;
   font-weight: 400;
   text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
   @media(max-width: $screen-xs-max) {
     font-size: 16px;
@@ -199,6 +200,7 @@
   letter-spacing: 1.28px;
   font-weight: 700;
   text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
   @media(max-width: $screen-xs-max) {
     font-size: 28px;
