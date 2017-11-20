@@ -46,7 +46,7 @@ $color-test: #aaaaaa;
 $color-text: $color-light-primary;                                 /* [3] */
 $color-text-hover: #ccc;                              /* [3] */
 $color-headlines: $color-primary;                       /* [3] */
-$color-headlines-underline: $color-accent;          /* [3] */
+$color-headlines-underline: $color-tertiary;          /* [3] */
 
 
 
@@ -77,11 +77,11 @@ $color-btn-background--secondary:       $color-secondary;
 $color-btn-hover--secondary:            $color-white;
 $color-btn-background-hover--secondary: $color-primary;
 $color-btn--accent:                     $color-white;
-$color-btn-background--accent:          $color-accent;
-$color-btn-border--accent:              $color-dark-accent;
+$color-btn-background--accent:          $color-tertiary;
+$color-btn-border--accent:              $color-dark-tertiary;
 $color-btn-hover--accent:               $color-white;
-$color-btn-background-hover--accent:    $color-dark-accent;
-$color-btn-border-hover--accent:        $color-dark-accent;
+$color-btn-background-hover--accent:    $color-dark-tertiary;
+$color-btn-border-hover--accent:        $color-dark-tertiary;
 $color-btn-ghost--primary:              $color-primary;
 $color-btn-ghost-hover--primary:        $color-white;
 $color-btn-ghost-bg-hover--primary:     $color-tertiary;
@@ -175,9 +175,9 @@ $color-site-foot-reviews-hover:         $color-darker-secondary;
 // Site Navigation
 $color-site-nav-contact:                $color-white;
 $color-site-nav-contact-border:         $color-dark-accent;
-$color-site-nav-contact-bg:             $color-accent;
+$color-site-nav-contact-bg:             $color-tertiary;
 $color-site-nav-contact-hover:          $color-white;
-$color-site-nav-contact-bg-hover:       $color-dark-accent;
+$color-site-nav-contact-bg-hover:       $color-dark-tertiary;
 $color-site-nav:                        $color-white;
 $color-site-nav-hover:                  $color-white;
 $color-site-nav-bg-hover:               $color-darker-secondary;
