@@ -23,7 +23,7 @@
 
   @media(max-width: $screen-xs-max) {
     // height: inherit;
-    color: $color-primary;
+    // color: $color-primary;
     @include flex-direction(column-reverse);
     height: auto;
   }
@@ -187,7 +187,7 @@
   margin-bottom: 13px;
   font-weight: 400;
   text-transform: uppercase;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
   @media(max-width: $screen-xs-max) {
     font-size: 16px;
