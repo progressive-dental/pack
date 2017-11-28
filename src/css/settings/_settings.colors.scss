@@ -33,7 +33,7 @@ $color-dark-secondary: darken($color-secondary, 2%);  /* [2] */
 $color-darker-secondary: darken($color-secondary, 5%);/* [2] */
 $color-light-secondary: lighten($color-secondary, 4%);/* [2] */
 
-$color-tertiary: #fcd93d;                             /* [2] */
+$color-tertiary: #d7b10a;                             /* [2] */
 $color-dark-tertiary: darken($color-tertiary, 30%);   /* [2] */
 $color-transparent-tertiary: transparentize($color-tertiary, .4);                             /* [2] */
 $color-tint: #EEEEEE;                                 /* [2] */
@@ -173,7 +173,7 @@ $color-site-foot-reviews:               $color-white;
 $color-site-foot-reviews-hover:         $color-darker-secondary;
 
 // Site Navigation
-$color-site-nav-contact:                $color-primary;
+$color-site-nav-contact:                $color-white;
 $color-site-nav-contact-border:         $color-dark-accent;
 $color-site-nav-contact-bg:             $color-tertiary;
 $color-site-nav-contact-hover:          $color-white;
