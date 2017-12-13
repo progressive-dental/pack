@@ -87,7 +87,7 @@ if( 'image' == $bg_type || 'image_pattern' == $bg_type) {
 }
 
 if( $bg_type == "video") :
-$output .= '<div class="section__video-wrap"><video poster="" preload="auto" loop="" autoplay="" muted=""><source src="' . $video_url . '" type="video/mp4"></video></div>';
+$output .= '<div class="section__video-wrap"><video poster="https://phillippack2.staging.wpengine.com/wp-content/uploads/2017/12/poster.jpg" preload="auto" loop="" autoplay="" muted=""><source src="' . $video_url . '" type="video/mp4"></video></div>';
 endif;
 $output .= '<div class="' . ( $full_width == 'stretch_row' ? 'container-fluid' : 'container' ) . '">';
 $output .= wpb_js_remove_wpautop( $content );
