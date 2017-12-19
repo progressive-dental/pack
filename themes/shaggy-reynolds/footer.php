@@ -24,6 +24,9 @@ global $progressive; ?>
             <a class="btn btn--primary" href="/contact-us" title="Schedule Consultation">
               Schedule Consultation
             </a>
+            <a class="btn btn--primary" href="https://www.mypbhs.com/truform/PdfToHtml/TruFormHTML.aspx?form=pack_p/main/reg/form.pdf" target="_blank" title="Schedule Consultation">
+              Health History Form
+            </a>
           </div>
           <div class="site-foot__contact">
             <?php if( $progressive['enable-location-two'] == 0)  : ?>
